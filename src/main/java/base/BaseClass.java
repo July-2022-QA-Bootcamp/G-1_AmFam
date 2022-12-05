@@ -118,6 +118,7 @@ public class BaseClass {
 			Logs.log("Error occurs during taking ScreenShot..!");
 		}
 		return localFile.getAbsolutePath();
+		
 	}
 
 }
