@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (c5f652c67bb34e5bd5db627c8fbf1059)] -> xpath: (//button[@class = 'OpenQrfButton button-primary']) [3]] <--- has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (c5f652c67bb34e5bd5db627c8fbf1059)] -> id: uid_61] <--- has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[85142 : has been passed to ---> [[ChromeDriver: chrome on MAC (c5f652c67bb34e5bd5db627c8fbf1059)] -> id: uid_61]<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (c5f652c67bb34e5bd5db627c8fbf1059)] -> xpath: (//div[@class= 'SelectionTiles__tile QrfProductTiles__tile']) [1]] <--- has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on MAC (c5f652c67bb34e5bd5db627c8fbf1059)] -> xpath: //span[@class= 'LoadingButton__content']] <--- has been clicked<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10060" started-at="2022-12-10T23:32:56 EST" finished-at="2022-12-10T23:33:06 EST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10060" started-at="2022-12-10T23:32:56 EST" finished-at="2022-12-10T23:33:06 EST">
+      <class name="SanjedaTest.QuoteTest">
+        <test-method status="PASS" signature="initiatinExtentReport()[pri:0, instance:SanjedaTest.QuoteTest@5123a213]" name="initiatinExtentReport" is-config="true" duration-ms="469" started-at="2022-12-10T23:32:56 EST" finished-at="2022-12-10T23:32:56 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiatinExtentReport -->
+        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:SanjedaTest.QuoteTest@5123a213]" name="beforeEachTest" is-config="true" duration-ms="12" started-at="2022-12-10T23:32:56 EST" finished-at="2022-12-10T23:32:56 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void SanjedaTest.QuoteTest.newQuote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:SanjedaTest.QuoteTest@5123a213]" name="setUpDriver" is-config="true" duration-ms="7915" started-at="2022-12-10T23:32:56 EST" finished-at="2022-12-10T23:33:04 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="newQuote()[pri:0, instance:SanjedaTest.QuoteTest@5123a213]" name="newQuote" duration-ms="1851" started-at="2022-12-10T23:33:04 EST" finished-at="2022-12-10T23:33:06 EST">
+          <reporter-output>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (c5f652c67bb34e5bd5db627c8fbf1059)] -> xpath: (//button[@class = 'OpenQrfButton button-primary']) [3]] <--- has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (c5f652c67bb34e5bd5db627c8fbf1059)] -> id: uid_61] <--- has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[85142 : has been passed to ---> [[ChromeDriver: chrome on MAC (c5f652c67bb34e5bd5db627c8fbf1059)] -> id: uid_61]<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (c5f652c67bb34e5bd5db627c8fbf1059)] -> xpath: (//div[@class= 'SelectionTiles__tile QrfProductTiles__tile']) [1]] <--- has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on MAC (c5f652c67bb34e5bd5db627c8fbf1059)] -> xpath: //span[@class= 'LoadingButton__content']] <--- has been clicked<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- newQuote -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:SanjedaTest.QuoteTest@5123a213]" name="afterEachTest" is-config="true" duration-ms="10" started-at="2022-12-10T23:33:06 EST" finished-at="2022-12-10T23:33:06 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=newQuote status=SUCCESS method=QuoteTest.newQuote()[pri:0, instance:SanjedaTest.QuoteTest@5123a213] output=[[ChromeDriver: chrome on MAC (c5f652c67bb34e5bd5db627c8fbf1059)] -> xpath: (//button[@class = 'OpenQrfButton button-primary']) [3]] <--- has been clicked<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="closingDriverSession()[pri:0, instance:SanjedaTest.QuoteTest@5123a213]" name="closingDriverSession" is-config="true" duration-ms="236" started-at="2022-12-10T23:33:06 EST" finished-at="2022-12-10T23:33:06 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingDriverSession -->
+        <test-method status="PASS" signature="closeReport()[pri:0, instance:SanjedaTest.QuoteTest@5123a213]" name="closeReport" is-config="true" duration-ms="557" started-at="2022-12-10T23:33:06 EST" finished-at="2022-12-10T23:33:07 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- SanjedaTest.QuoteTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
