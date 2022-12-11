@@ -16,6 +16,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import com.aventstack.extentreports.ExtentReports;
@@ -24,6 +25,7 @@ import com.google.common.io.Files;
 import util.Configuration;
 import static util.IConstant.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import pages.SanjedaPage;
 import reporting.ExtentManager;
 import reporting.ExtentTestManager;
 import reporting.Logs;
@@ -33,6 +35,8 @@ public class BaseClass {
 	Configuration config = new Configuration();
 	WebDriver driver;
 	ExtentReports extent;
+	protected SanjedaPage sanjedaPage;
+	
 	@BeforeSuite
 	public void initiatinExtentReport() {
 		extent = ExtentManager.getInstance();
@@ -100,9 +104,21 @@ public class BaseClass {
 	}
 
 	private void initClasses() {
-		
-		
-		
+		sanjedaPage = new SanjedaPage(driver);
+	}
+	
+	public WebDriver getDriver() {
+		return driver;
+	}
+
+	@AfterMethod
+	public void closingDriverSession() {
+		getDriver().quit();
+	}
+
+	@AfterSuite
+	public void closeReport() {
+		extent.flush();
 	}
 	
 	public String takeScreenShot(String testName) {
